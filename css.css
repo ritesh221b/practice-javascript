@@ -1,0 +1,121 @@
+/* 
+
+CSS is case insensitive.
+
+But in HTML5 the class and ID are case sensitive
+
+https://github.com/learning-zone/css-interview-questions
+
+# Specificity
+    - are the rules used by the browser to decided priority of two conflict css rules
+
+    Inline !important
+    !important
+    Inline
+    Id selector
+    class selector
+    element selector
+    Universal *
+    Descendant Combinator div.color
+    Attribute Selector
+
+    # Visiblilty hidden and display none
+    - hide element but element occupies space
+
+    # Positions
+    - Static : Default
+
+    #Ways to include css
+    - external file
+    - embed CSS
+    - Inline CSS
+    - @import CSs
+
+    # VH vs VW
+    - 1vh is 1% of visible hight
+
+    # Background vs Color
+    - Background is coplex property
+    - Color is inherited
+
+    #CSS sprites
+    - CSS sprites combine multiple images into one single larger image
+
+    #Float
+    -The float CSS property places an element on the left or right side of its container,
+     allowing text and inline elements to wrap around it
+
+    #How to restore the default property value using CSS?
+    - can use 'initial' as property value not but no easy way
+    
+    #Zindex
+    - way to specify stack of overlaping element
+    - z direction can accept both - and + values
+
+    #W3C
+    - World Wide Web Consortium.
+    - rules and guidline and standarisation
+
+    # What is tweening?
+    - process of generating intermediate frames between two images
+
+    # CSS2 vs CSS3
+    - CSS3 contains modules that are supported by browswers
+    - General Sibling Combinators which is responsible for matching the sibling elements with the given elements
+
+    #RGB Stream
+    - 0 to 256
+
+    # What are pseudo-elements in CSS?
+    - is a keyword added to a selector that lets you style a specific part of the selected element(s)
+    -like :first-line, :first-letter :before, :after
+
+    #Same style to two different ele
+    
+    #Modules in css
+    Selectors
+    Box Model
+    Animations
+    Multiple Column Layout
+    User Interface
+    Flexbox
+
+    #Units
+    em -	Relative to the font-size of the element (2em means 2 times the size of the current font)
+    rem -	Relative to font-size of the root element
+    vw -	Relative to 1% of the width of the viewport*
+
+
+# Vendor-Prefixes? 
+    -webkit- (Chrome, Safari, newer versions of Opera, almost all iOS browsers (including Firefox for iOS); basically, any WebKit based browser)
+    -moz- (Firefox)
+    -o- (Old, pre-WebKit, versions of Opera)
+    -ms- (Internet Explorer and Microsoft Ed
+
+
+What is graceful degradation?
+
+In case the component fails, it will continue to work properly in the presence of a graceful degradation. The latest browser application is used when a webpage is designed. As it is not available to everyone, there is a basic functionality, 
+which enables its use to a wider audience. In case the image is unavailable for viewing, text is shown with the alt tag.
+
+Why is @import only at the top?
+@import is preferred only at the top, to avoid any overriding rules
+
+
+49. What is at-rule?
+
+Rule, which is applicable in the entire sheet and not partly, is known as at-rule. It is preceded by @ followed by A-Z, a-z or 0-9.
+
+Limitations of CSS are:
+
+No expressions
+Limitations of vertical control
+Ascending by selectors is not possible
+No column declaration
+Rules, targeting specific text, and styles not possible
+Dynamic behavior does not control pseudo-class
+
+Grouping:  In grouping, the code can be reduced by literally grouping selectors that have the same properties or values. 
+Nesting: In nesting, a selector is specified within another selector.
+A Mixin is a block of code that lets us group CSS declarations we may reuse throughout our site.
+*/

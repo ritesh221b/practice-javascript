@@ -1,0 +1,5 @@
+Topics and questions
+
+1. Different ways to loop object in js?
+2. Types of for loop in js
+3. Uses of Object funtions in js like keys, values, freez, entries
